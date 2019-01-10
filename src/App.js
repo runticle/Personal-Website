@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Homepage from './components/Homepage'
+import NavBar from './components/NavBar'
+import AppRouter from './routers/AppRouter'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Homepage/>
+        <NavBar/>
+        <AppRouter/>
       </div>
     );
   }
