@@ -16,9 +16,56 @@ ShallowWrapper {
     "instance": null,
     "key": undefined,
     "nodeType": "host",
-    "props": Object {},
+    "props": Object {
+      "children": Array [
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          to="/blog"
+        >
+          Blog
+        </NavLink>,
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          to="/"
+        >
+          Home
+        </NavLink>,
+      ],
+      "id": "navigation-bar",
+    },
     "ref": null,
-    "rendered": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "aria-current": "page",
+          "children": "Blog",
+          "to": "/blog",
+        },
+        "ref": null,
+        "rendered": "Blog",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "aria-current": "page",
+          "children": "Home",
+          "to": "/",
+        },
+        "ref": null,
+        "rendered": "Home",
+        "type": [Function],
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -26,9 +73,56 @@ ShallowWrapper {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "children": Array [
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            to="/blog"
+          >
+            Blog
+          </NavLink>,
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            to="/"
+          >
+            Home
+          </NavLink>,
+        ],
+        "id": "navigation-bar",
+      },
       "ref": null,
-      "rendered": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "Blog",
+            "to": "/blog",
+          },
+          "ref": null,
+          "rendered": "Blog",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "Home",
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": "Home",
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
