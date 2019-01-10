@@ -28,6 +28,20 @@ ShallowWrapper {
         <NavLink
           activeClassName="active"
           aria-current="page"
+          to="/Projects"
+        >
+          Projects
+        </NavLink>,
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          to="/Contact"
+        >
+          Contact
+        </NavLink>,
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
           to="/"
         >
           Home
@@ -49,6 +63,34 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Blog ",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "aria-current": "page",
+          "children": "Projects",
+          "to": "/Projects",
+        },
+        "ref": null,
+        "rendered": "Projects",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "aria-current": "page",
+          "children": "Contact",
+          "to": "/Contact",
+        },
+        "ref": null,
+        "rendered": "Contact",
         "type": [Function],
       },
       Object {
@@ -85,6 +127,20 @@ ShallowWrapper {
           <NavLink
             activeClassName="active"
             aria-current="page"
+            to="/Projects"
+          >
+            Projects
+          </NavLink>,
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            to="/Contact"
+          >
+            Contact
+          </NavLink>,
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
             to="/"
           >
             Home
@@ -106,6 +162,34 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Blog ",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "Projects",
+            "to": "/Projects",
+          },
+          "ref": null,
+          "rendered": "Projects",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "Contact",
+            "to": "/Contact",
+          },
+          "ref": null,
+          "rendered": "Contact",
           "type": [Function],
         },
         Object {
