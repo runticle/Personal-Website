@@ -6,7 +6,7 @@ class NavBar extends Component {
   render() {
     return (
       <div id='navigation-bar'>
-        <NavLink to="/blog">Blog</NavLink>
+        <NavLink to="/blog">Blog </NavLink>
         <NavLink to="/">Home</NavLink>
       </div>
     );
