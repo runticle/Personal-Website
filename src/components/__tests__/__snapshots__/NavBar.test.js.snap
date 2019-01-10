@@ -23,7 +23,7 @@ ShallowWrapper {
           aria-current="page"
           to="/blog"
         >
-          Blog
+          Blog 
         </NavLink>,
         <NavLink
           activeClassName="active"
@@ -44,11 +44,11 @@ ShallowWrapper {
         "props": Object {
           "activeClassName": "active",
           "aria-current": "page",
-          "children": "Blog",
+          "children": "Blog ",
           "to": "/blog",
         },
         "ref": null,
-        "rendered": "Blog",
+        "rendered": "Blog ",
         "type": [Function],
       },
       Object {
@@ -80,7 +80,7 @@ ShallowWrapper {
             aria-current="page"
             to="/blog"
           >
-            Blog
+            Blog 
           </NavLink>,
           <NavLink
             activeClassName="active"
@@ -101,11 +101,11 @@ ShallowWrapper {
           "props": Object {
             "activeClassName": "active",
             "aria-current": "page",
-            "children": "Blog",
+            "children": "Blog ",
             "to": "/blog",
           },
           "ref": null,
-          "rendered": "Blog",
+          "rendered": "Blog ",
           "type": [Function],
         },
         Object {
