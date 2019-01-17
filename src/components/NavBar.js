@@ -11,8 +11,8 @@ class NavBar extends Component {
         </NavLink>
         <ul className='nav mr-auto'>
           <NavLink className='nav-link' to="/blog">Blog </NavLink>
-          <NavLink className='nav-link' to="/Projects">Projects </NavLink>
-          <NavLink className='nav-link' to="/Contact">Contact </NavLink>
+          <NavLink className='nav-link' to="/projects">Projects </NavLink>
+          <NavLink className='nav-link' to="/contact">Contact </NavLink>
         </ul>
         <span className='navbar-text col'> MEMOIRS OF A FREEMAN</span>
         <a href="https://www.linkedin.com/in/alfie-freeman-808166b9/" target="_block">
