@@ -20,11 +20,11 @@ class MakersRich extends Component {
   render() {
     return (
       <div id="makersrich">
-        <h5>MakersRich</h5>
+        <h4>MakersRich</h4>
         <img className="project-img" id="makers-img" src="/assets/makersrich.png"/>
         <ul>
-          <li><a href="https://makerzrich.firebaseapp.com/">Play here!</a></li>
-          <li><a href="https://github.com/toddpla/makersrich">Github Link</a></li>
+          <li><a target="_block" href="https://makerzrich.firebaseapp.com/">Play here!</a></li>
+          <li><a target="_block" href="https://github.com/toddpla/makersrich">Github Link</a></li>
           <li>Team size: 5</li>
           <li>Timeframe: 2 weeks</li>
           <li>Tech: React, Redux, Firebase</li>
