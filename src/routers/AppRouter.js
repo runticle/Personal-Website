@@ -1,8 +1,8 @@
 import React from 'react';
 import { Router, Route, Switch } from 'react-router-dom';
-import Homepage from '../components/Homepage'
+import Homepage from '../components/homepage/Homepage'
 import Blog from '../components/Blog'
-import Projects from '../components/Projects'
+import Projects from '../components/projects/Projects'
 import Contact from '../components/Contact'
 import createHistory from 'history/createBrowserHistory'
 
