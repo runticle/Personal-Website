@@ -15,6 +15,9 @@ class NavBar extends Component {
           <NavLink className='nav-link' to="/Contact">Contact </NavLink>
         </ul>
         <span className='navbar-text col'> MEMOIRS OF A FREEMAN</span>
+        <a href="https://www.linkedin.com/in/alfie-freeman-808166b9/" target="_block">
+          <img src="/assets/In-2c-54px-TM.png" style={{width:'37px',margin:'5px'}}/>
+        </a>
       </div>
     );
   }
