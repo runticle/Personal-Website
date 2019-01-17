@@ -19,6 +19,8 @@ class Projects extends Component {
       .then((res) => {
         this.getProjectsArray(res)
       })
+
+
   }
 
   getProjectsArray(json){
