@@ -1,11 +1,21 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 0;
   font-family: "Open Sans", Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
+  min-width:800px;        /* Suppose you want minimum width of 1000px */
+  width: auto !important;  /* Firefox will set width as auto */
+  width:800px;
   color: grey;
+}
+
+.my-life {
+  float: left;
+  width: 30%;
+  position: absolute;
+  margin: 30px;
 }
 
 .about {
