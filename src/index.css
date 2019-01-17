@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: beige;
+  background-color: white;
 }
 
 code {
@@ -14,9 +14,24 @@ code {
     monospace;
 }
 
-#navigation-bar {
+.about {
+  background-color: #eee;
+  position: relative;
+  margin-top: 15px;
+  padding: 5px;
   width: 100%;
-  top: 0;
-  height: 50px;
-  background-color: lightgrey;
+  text-align: center;
+}
+
+.about-list {
+  padding-top: 5px;
+  list-style-type: none;
+  color: grey;
+}
+
+.prof-pic {
+  width: 200px;
+  filter: grayscale(100%);
+  margin: auto;
+  display: block;
 }
