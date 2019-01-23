@@ -119,7 +119,6 @@ ul,li {
 /* active article  */
 
 .blog-page {
-  display: flex;
   padding: 40px 50px;
 }
 
@@ -127,21 +126,27 @@ ul,li {
   background-color: #eeeeee;
   height: 1000px;
   border: 1px solid black;
-  margin: 0px 50px;
-  flex: 3;
+  flex-basis: 50%;
   order: 2;
 }
 
 .blog-menu {
   background-color: #eeeeee;
   height: 1000px;
-  flex: 1;
+  flex-basis: 20%;
   order: 3;
 }
 
 .blog-sidebar {
   background-color: #eeeeee;
   height: 1000px;
-  flex: 1;
+  flex-basis: 20%;
   order: 1;
+}
+
+@media (min-width: 900px) {
+  .blog-page {
+    display: flex;
+    justify-content: space-between;
+  }
 }
