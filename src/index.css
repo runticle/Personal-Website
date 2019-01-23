@@ -5,11 +5,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
-  min-width:800px;        /* Suppose you want minimum width of 1000px */
+  min-width:800px;
   width: auto !important;  /* Firefox will set width as auto */
   width:800px;
   color: grey;
 }
+
+/* home page */
 
 .my-life {
   float: left;
@@ -40,6 +42,8 @@ ul,li {
   margin: auto;
   display: block;
 }
+
+/* projects page  */
 
 #project-page {
   text-align: center;
@@ -77,6 +81,8 @@ ul,li {
   opacity: 0.7;
 }
 
+/* modal image zoom */
+
 .modal {
   display: none;
   position: fixed;
@@ -106,4 +112,28 @@ ul,li {
 @keyframes zoom {
   from {transform:scale(0)}
   to {transform:scale(1)}
+}
+
+/* blog page  */
+
+/* active article  */
+
+.blog-page {
+  display: flex;
+  padding: 40px 100px;
+  margin: 40px auto 0 auto;
+}
+
+.active-blog {
+  background-color: #eeeeee;
+  height: 1000px;
+  border: 1px solid black;
+  margin: 0px 50px;
+  flex: 2;
+}
+
+.blog-menu {
+  background-color: #eeeeee;
+  height: 1000px;
+  flex: 1;
 }
