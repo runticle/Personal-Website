@@ -120,8 +120,7 @@ ul,li {
 
 .blog-page {
   display: flex;
-  padding: 40px 100px;
-  margin: 40px auto 0 auto;
+  padding: 40px 50px;
 }
 
 .active-blog {
@@ -129,11 +128,20 @@ ul,li {
   height: 1000px;
   border: 1px solid black;
   margin: 0px 50px;
-  flex: 2;
+  flex: 3;
+  order: 2;
 }
 
 .blog-menu {
   background-color: #eeeeee;
   height: 1000px;
   flex: 1;
+  order: 3;
+}
+
+.blog-sidebar {
+  background-color: #eeeeee;
+  height: 1000px;
+  flex: 1;
+  order: 1;
 }
