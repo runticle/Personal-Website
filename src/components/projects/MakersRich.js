@@ -21,10 +21,10 @@ class MakersRich extends Component {
     return (
       <div id="makersrich">
         <h4>MakersRich</h4>
-        <img className="project-img" id="makers-img" src="/assets/makersrich.png"/>
+        <img className="project-img" id="makers-img" alt="Missing!" src="/assets/makersrich.png"/>
         <ul>
-          <li><a target="_block" href="https://makerzrich.firebaseapp.com/">Play here!</a></li>
-          <li><a target="_block" href="https://github.com/toddpla/makersrich">Github Link</a></li>
+          <li><a href="https://makerzrich.firebaseapp.com/">Play here!</a></li>
+          <li><a href="https://github.com/toddpla/makersrich">Github Link</a></li>
           <li>Team size: 5</li>
           <li>Timeframe: 2 weeks</li>
           <li>Tech: React, Redux, Firebase</li>
@@ -33,7 +33,7 @@ class MakersRich extends Component {
           Given 10 days for our final project, we made an Educational Multiplayer Online RPG. We used React and Redux, with Google Firebase to allow realtime updates via web sockets.
         </p>
         <div id="myModal" class="modal">
-          <img class="modal-content" id="img01"/>
+          <img class="modal-content" alt="Missing!" id="img01"/>
         </div>
       </div>
 
