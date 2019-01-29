@@ -3,7 +3,7 @@ import { Router, Route, Switch } from 'react-router-dom';
 import Homepage from '../components/homepage/Homepage'
 import Blog from '../components/blog/Blog'
 import Projects from '../components/projects/Projects'
-import Contact from '../components/Contact'
+import Contact from '../components/contact/Contact'
 import createHistory from 'history/createBrowserHistory'
 
 export const history = createHistory()
