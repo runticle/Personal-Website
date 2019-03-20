@@ -1,21 +1,21 @@
-# Memoirs of a free man
+# Memoirs of a free man
 Personal Website build in React.
 
-## Features
-Projects page ✅
-- github projects API ✅
+## Features
+### Projects page ✅
+- [x] github projects API
 
-Homepage ✅
-- bit about me ✅
-- coinmarketcap API ❌
+### Homepage ✅
+- [x] bit about me
+- [ ] coinmarketcap API
 
-Blog ❌
+### Blog ❌
 
-Contact Page ❌
-- email API ❌
+### Contact Page ❌
+- [ ] email API
 
-Deployed ❌
+### Deployed ❌
 
-Tested ❌
+### Tested ❌
 
 🙃
